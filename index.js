@@ -1,15 +1,14 @@
 module.exports = {
+    extends: ['eslint:recommended','airbnb-base'],
     env: {
-        es2021: true,
+        browser: true,
+        node: true,
     },
-    extends: ['eslint:recommended', 'airbnb-base'],
     parserOptions: {
-        ecmaVersion: 12,
-        sourceType: 'module',
+        ecmaVersion: 11,
+        sourceType: "module",
     },
-    rules: {
-        'react/prop-types': 'off',
-        'no-console': 'off',
-        'no-unused-vars': 1
-    },
-};
+    rules:{
+        'no-console': 'off', // 콘솔 사용 허용,
+    }
+}

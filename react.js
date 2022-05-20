@@ -12,9 +12,9 @@ module.exports = {
     },
     rules: {
         'react/prop-types': 'off', // react prop-types 필수로 적용안해도 됨
-        'no-console': 'off', // 콘솔 사용 허용,
-        'react/jsx-filename-extension': ['error', {
-            extensions: ['.jsx', '.tsx'],
+        'react/jsx-filename-extension': ['error', { // js,tsx파일에서 jsx문법을 사용가능하게 확장
+            extensions: ['.js', '.tsx'],
         }],
+        'import/no-unresolved': 'off', // 절대경로 사용하기 위해 설정
     },
 };

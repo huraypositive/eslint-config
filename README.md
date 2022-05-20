@@ -36,8 +36,8 @@ module.exports = {
 module.exports = {
   extends: [
     'huray',
-    'huray/react'
     'huray/typescript',
+    'huray/react',
   ]
 }
 ```
