@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-huray",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "huray's ESLint configs for Javascript",
   "main": "index.js",
   "repository": "https://github.com/huraypositive/eslint-config.git",
