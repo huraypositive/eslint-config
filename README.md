@@ -16,6 +16,7 @@ yarn add --dev eslint-config-huray
 module.exports = {
   extends: [
     'huray'
+    'huray/prettier'
   ]
 }
 ```
@@ -26,6 +27,7 @@ module.exports = {
   extends: [
     'huray',
     'huray/react',
+    'huray/prettier'
   ],
 }
 ``` 
@@ -38,6 +40,7 @@ module.exports = {
     'huray',
     'huray/typescript',
     'huray/react',
+    'huray/prettier'
   ]
 }
 ```
@@ -48,3 +51,18 @@ module.exports = {
     "src"
   ]
   ```
+  
+### 프로젝트에 .prettierrc 파일 추가해주세요
+ 
+  ```
+ {
+    "singleQuote": true,
+    "semi": true,
+    "useTabs": false,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "printWidth": 80,
+    "arrowParens": "always"
+}
+```
+
