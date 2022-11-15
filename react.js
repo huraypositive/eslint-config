@@ -29,7 +29,6 @@ module.exports = {
                 json: 'never',
             },
         ],
-        '@emotion/jsx-import': 'error',
         'react/jsx-props-no-spreading': 'off',
         'react/require-default-props': 'off',
         'no-param-reassign': [
