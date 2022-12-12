@@ -47,5 +47,31 @@ module.exports = {
             },
         ],
         'consistent-return': 'off',
+        'import/order': [
+            'error',
+            {
+              groups: [
+                'builtin',
+                'external',
+                'internal',
+                ['sibling', 'parent', 'index'],
+                'object',
+                'type',
+                'unknown',
+              ],
+              pathGroups: [
+                {
+                  pattern: '{react*, react*/**}',
+                  group: 'external',
+                  position: 'before',
+                },
+              ],
+              pathGroupsExcludedImportTypes: ['react', 'react-dom', 'unknown'],
+              alphabetize: {
+                order: 'asc',
+                caseInsensitive: true,
+              },
+            },
+        ],
     },
 };
