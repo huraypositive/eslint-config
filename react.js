@@ -47,6 +47,7 @@ module.exports = {
             },
         ],
         'consistent-return': 'off',
+        'jsx-a11y/anchor-is-valid': 'off',
         'import/order': [
             'error',
             {
