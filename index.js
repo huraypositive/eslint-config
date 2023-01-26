@@ -10,5 +10,6 @@ module.exports = {
     },
     rules:{
         'no-console': 'off', // 콘솔 사용 허용,
+        'no-debugger': 'off'
     }
 }
