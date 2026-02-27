@@ -1,6 +1,6 @@
 {
   "name": "@huray/eslint-config-react",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Huray's ESLint config for React projects",
   "main": "index.js",
   "exports": {
@@ -20,11 +20,16 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "devDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
   "dependencies": {
     "@huray/eslint-config": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.37.0",
     "eslint-plugin-react-hooks": "^5.0.0",

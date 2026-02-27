@@ -5,8 +5,9 @@
   "description": "Huray's ESLint configs monorepo",
   "packageManager": "pnpm@9.0.0",
   "scripts": {
-    "lint": "turbo run lint",
-    "test": "turbo run test",
+    "lint": "turbo run lint --continue",
+    "lint:next": "pnpm --filter @huray/fixtures-next lint",
+    "lint:react": "pnpm --filter @huray/fixtures-react lint",
     "clean": "turbo run clean && rm -rf node_modules",
     "changeset": "changeset",
     "version": "changeset version",

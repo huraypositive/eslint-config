@@ -30,6 +30,7 @@ module.exports = [
   // 기본 규칙 (React + Hooks + a11y)
   {
     name: 'huray/base',
+    files: ['**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}'],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
@@ -70,11 +71,12 @@ module.exports = [
 
   {
     name: 'huray/prettier',
+    files: ['**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}'],
     rules: {
       'prettier/prettier': [
         'warn',
         prettierOptions,
-        { usePrettierrc: true },
+        { usePrettierrc: false },
       ],
     },
   },

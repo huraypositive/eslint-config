@@ -2,3 +2,4 @@ packages:
   - 'packages/core'
   - 'packages/react'
   - 'packages/next'
+  - 'packages/fixtures/*'

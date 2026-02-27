@@ -16,7 +16,6 @@
 const eslintPluginPrettierRecommended = require('eslint-plugin-prettier/recommended');
 const eslintPluginImport = require('eslint-plugin-import');
 const eslintPluginReact = require('eslint-plugin-react');
-const prettierPluginTailwindcss = require('prettier-plugin-tailwindcss');
 
 const nextVitals = require('eslint-config-next/core-web-vitals');
 const nextTs = require('eslint-config-next/typescript');
@@ -35,6 +34,7 @@ module.exports = [
   // 공통 규칙
   {
     name: 'huray/rules',
+    files: ['**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}'],
     plugins: {
       import: eslintPluginImport,
       react: eslintPluginReact,
@@ -67,15 +67,16 @@ module.exports = [
 
   {
     name: 'huray/prettier',
+    files: ['**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}'],
     rules: {
       'prettier/prettier': [
         'warn',
         {
           ...prettierOptions,
-          plugins: [prettierPluginTailwindcss],
+          plugins: ['prettier-plugin-tailwindcss'],
           tailwindFunctions: ['clsx', 'cva', 'cn'],
         },
-        { usePrettierrc: true },
+        { usePrettierrc: false },
       ],
     },
   },

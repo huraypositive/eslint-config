@@ -1,14 +1,18 @@
 {
   "name": "@huray/eslint-config",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Huray's shared ESLint rule definitions (no plugins, rules only)",
   "main": "index.js",
   "exports": {
     ".": "./index.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "postinstall.js"
   ],
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
   "keywords": ["eslint", "eslint-config", "huray", "rules"],
   "author": "Huray <dev@huray.net>",
   "license": "MIT",
