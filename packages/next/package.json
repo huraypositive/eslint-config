@@ -1,6 +1,6 @@
 {
   "name": "@huray/eslint-config-next",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Huray's ESLint config for Next.js projects",
   "main": "index.js",
   "exports": {
@@ -13,7 +13,15 @@
   "scripts": {
     "postinstall": "node postinstall.js"
   },
-  "keywords": ["huray", "eslint", "eslint-config", "nextjs", "next", "tailwindcss", "prettier"],
+  "keywords": [
+    "huray",
+    "eslint",
+    "eslint-config",
+    "nextjs",
+    "next",
+    "tailwindcss",
+    "prettier"
+  ],
   "author": "Huray <dev@huray.net>",
   "license": "MIT",
   "repository": {
