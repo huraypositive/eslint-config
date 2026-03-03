@@ -215,7 +215,7 @@ pnpm changeset
 #### Step 3. master에 push
 
 ```bash
-git commit -m "[배포] @huray/eslint-config-core@1.0.1" 
+git commit -m "[배포] changeset 추가" 
 git push
 ```
 
