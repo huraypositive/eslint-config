@@ -7,8 +7,12 @@
     ".": "./index.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "postinstall.js"
   ],
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
   "keywords": ["huray", "eslint", "eslint-config", "react", "react-hooks", "jsx"],
   "author": "Huray <dev@huray.net>",
   "license": "MIT",
