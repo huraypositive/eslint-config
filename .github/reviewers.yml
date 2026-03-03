@@ -1,0 +1,13 @@
+addReviewers: true
+
+addAssignees: author
+
+reviewers:
+  - pro-popo
+  - yyoooon
+  - LeeKwang-min
+  - shongs27
+  - JunseokPark13
+  - hodeng28
+
+numberOfReviewers: 0
