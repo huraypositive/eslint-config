@@ -1,6 +1,6 @@
 {
   "name": "@huray/eslint-config-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Huray's ESLint config for React projects",
   "main": "index.js",
   "exports": {
@@ -13,7 +13,14 @@
   "scripts": {
     "postinstall": "node postinstall.js"
   },
-  "keywords": ["huray", "eslint", "eslint-config", "react", "react-hooks", "jsx"],
+  "keywords": [
+    "huray",
+    "eslint",
+    "eslint-config",
+    "react",
+    "react-hooks",
+    "jsx"
+  ],
   "author": "Huray <dev@huray.net>",
   "license": "MIT",
   "repository": {

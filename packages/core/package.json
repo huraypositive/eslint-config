@@ -1,6 +1,6 @@
 {
   "name": "@huray/eslint-config-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Huray's shared ESLint rule definitions (no plugins, rules only)",
   "main": "index.js",
   "exports": {
@@ -9,7 +9,12 @@
   "files": [
     "index.js"
   ],
-  "keywords": ["eslint", "eslint-config", "huray", "rules"],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "huray",
+    "rules"
+  ],
   "author": "Huray <dev@huray.net>",
   "license": "MIT",
   "repository": {
