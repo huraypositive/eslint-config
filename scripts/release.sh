@@ -20,5 +20,5 @@ git add -A
 git commit -m "[배포] $CHANGED_PACKAGES"
 git push
 
-pnpm changeset publish
-git push --tags
+pnpm changeset publish --git-tag
+git push --follow-tags
