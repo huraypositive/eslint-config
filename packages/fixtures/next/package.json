@@ -1,0 +1,17 @@
+{
+  "name": "@huray/fixtures-next",
+  "version": "0.0.0",
+  "private": true,
+  "description": "@huray/eslint-config-next 규칙 검증",
+  "scripts": {
+    "lint": "eslint src/"
+  },
+  "devDependencies": {
+    "next": "^16.0.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "@huray/eslint-config-next": "workspace:*"
+  }
+}

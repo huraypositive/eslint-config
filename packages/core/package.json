@@ -1,0 +1,30 @@
+{
+  "name": "@huray/eslint-config",
+  "version": "0.0.1",
+  "description": "Huray's shared ESLint rule definitions (no plugins, rules only)",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "postinstall.js"
+  ],
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "keywords": ["eslint", "eslint-config", "huray", "rules"],
+  "author": "Huray <dev@huray.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huraypositive/eslint-config.git",
+    "directory": "packages/core"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

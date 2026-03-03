@@ -1,0 +1,6 @@
+'🐰 Core':
+  - packages/core/**
+'🐹 Next':
+  - packages/next/**
+'🐸 React':
+  - packages/react/**

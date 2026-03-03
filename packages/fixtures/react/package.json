@@ -1,0 +1,15 @@
+{
+  "name": "@huray/fixtures-react",
+  "version": "0.0.0",
+  "private": true,
+  "description": "@huray/eslint-config-react 규칙 검증",
+  "scripts": {
+    "lint": "eslint src/"
+  },
+  "devDependencies": {
+    "react": "^19.0.0"
+  },
+  "dependencies": {
+    "@huray/eslint-config-react": "workspace:*"
+  }
+}
