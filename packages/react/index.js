@@ -24,7 +24,7 @@ const {
   baseRules,
   typescriptRules,
   prettierOptions,
-} = require('@huray/eslint-config');
+} = require('@huray/eslint-config-core');
 
 module.exports = [
   // 기본 규칙 (React + Hooks + a11y)

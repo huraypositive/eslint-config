@@ -24,7 +24,7 @@ const {
   baseRules,
   typescriptRules,
   prettierOptions,
-} = require('@huray/eslint-config');
+} = require('@huray/eslint-config-core');
 
 module.exports = [
   // Next.js (React, Hooks, a11y, Core Web Vitals, TypeScript 파서)

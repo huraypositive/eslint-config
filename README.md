@@ -6,7 +6,7 @@ Huray 프론트엔드 팀의 공유 ESLint 설정 모노레포입니다.
 
 | 패키지 | 설명 | npm |
 |---|---|---|
-| `@huray/eslint-config` | 공통 규칙 정의 (플러그인 미포함) | [![npm](https://img.shields.io/npm/v/@huray/eslint-config)](https://www.npmjs.com/package/@huray/eslint-config) |
+| `@huray/eslint-config-core` | 공통 규칙 정의 (플러그인 미포함) | [![npm](https://img.shields.io/npm/v/@huray/eslint-config-core)](https://www.npmjs.com/package/@huray/eslint-config-core) |
 | `@huray/eslint-config-next` | Next.js 프로젝트용 ESLint 설정 | [![npm](https://img.shields.io/npm/v/@huray/eslint-config-next)](https://www.npmjs.com/package/@huray/eslint-config-next) |
 | `@huray/eslint-config-react` | React 프로젝트용 ESLint 설정 | [![npm](https://img.shields.io/npm/v/@huray/eslint-config-react)](https://www.npmjs.com/package/@huray/eslint-config-react) |
 
@@ -62,7 +62,7 @@ export default defineConfig([
 
 ## VS Code 설정
 
-`@huray/eslint-config` 설치 시 `postinstall` 스크립트가 자동으로 실행되어 `.vscode/` 파일을 생성하거나 기존 파일에 병합합니다.
+`@huray/eslint-config-core` 설치 시 `postinstall` 스크립트가 자동으로 실행되어 `.vscode/` 파일을 생성하거나 기존 파일에 병합합니다.
 
 ### `.vscode/settings.json`
 
@@ -111,7 +111,7 @@ pnpm install
 ```
 huray-eslint-config/
 ├── packages/
-│   ├── core/          # @huray/eslint-config (공통 규칙)
+│   ├── core/          # @huray/eslint-config-core (공통 규칙)
 │   ├── next/          # @huray/eslint-config-next
 │   ├── react/         # @huray/eslint-config-react
 │   └── fixtures/
@@ -186,7 +186,7 @@ pnpm changeset
 
 ```
 # 어떤 패키지를 변경했나요?
-◉ @huray/eslint-config        ← 스페이스바로 선택
+◉ @huray/eslint-config-core   ← 스페이스바로 선택
 ◯ @huray/eslint-config-next
 ◯ @huray/eslint-config-react
 
@@ -235,7 +235,7 @@ pnpm release
 
 ③ pnpm publish
    └─ npm에 패키지 배포
-   └─ git 태그 생성: @huray/eslint-config@2.0.1
+   └─ git 태그 생성: @huray/eslint-config-core@2.0.1
    └─ fixtures/* 는 private이므로 자동 제외
 
 ④ git push --tags

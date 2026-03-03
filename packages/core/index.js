@@ -6,7 +6,7 @@
  *
  * @usage
  * ```js
- * const { baseRules, typescriptRules, prettierOptions } = require('@huray/eslint-config');
+ * const { baseRules, typescriptRules, prettierOptions } = require('@huray/eslint-config-core');
  * ```
  */
 

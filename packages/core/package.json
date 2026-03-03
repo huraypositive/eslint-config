@@ -1,5 +1,5 @@
 {
-  "name": "@huray/eslint-config",
+  "name": "@huray/eslint-config-core",
   "version": "0.0.1",
   "description": "Huray's shared ESLint rule definitions (no plugins, rules only)",
   "main": "index.js",
