@@ -7,8 +7,12 @@
     ".": "./index.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "postinstall.js"
   ],
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
   "keywords": ["huray", "eslint", "eslint-config", "react", "react-hooks", "jsx"],
   "author": "Huray <dev@huray.net>",
   "license": "MIT",
@@ -25,7 +29,7 @@
     "react-dom": "^19.0.0"
   },
   "dependencies": {
-    "@huray/eslint-config": "workspace:*",
+    "@huray/eslint-config-core": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "eslint": "^9.0.0",

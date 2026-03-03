@@ -7,8 +7,12 @@
     ".": "./index.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "postinstall.js"
   ],
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
   "keywords": ["huray", "eslint", "eslint-config", "nextjs", "next", "tailwindcss", "prettier"],
   "author": "Huray <dev@huray.net>",
   "license": "MIT",
@@ -26,7 +30,7 @@
     "react-dom": "^19.0.0"
   },
   "dependencies": {
-    "@huray/eslint-config": "workspace:*",
+    "@huray/eslint-config-core": "workspace:*",
     "eslint": "^9.0.0",
     "eslint-config-next": "^16.0.7",
     "eslint-config-prettier": "^9.0.0",

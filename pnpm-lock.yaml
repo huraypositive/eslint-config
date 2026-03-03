@@ -45,7 +45,7 @@ importers:
 
   packages/next:
     dependencies:
-      '@huray/eslint-config':
+      '@huray/eslint-config-core':
         specifier: workspace:*
         version: link:../core
       eslint:
@@ -85,7 +85,7 @@ importers:
 
   packages/react:
     dependencies:
-      '@huray/eslint-config':
+      '@huray/eslint-config-core':
         specifier: workspace:*
         version: link:../core
       '@typescript-eslint/eslint-plugin':
