@@ -1,6 +1,6 @@
 {
   "name": "@huray/eslint-config-react",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Huray's ESLint config for React projects",
   "main": "index.js",
   "exports": {
