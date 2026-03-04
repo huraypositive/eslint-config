@@ -19,6 +19,7 @@ const eslintPluginReact = require('eslint-plugin-react');
 
 const nextVitals = require('eslint-config-next/core-web-vitals');
 const nextTs = require('eslint-config-next/typescript');
+const tailwindPrettierPlugin = require.resolve('prettier-plugin-tailwindcss');
 
 const {
   baseRules,
@@ -73,7 +74,7 @@ module.exports = [
         'warn',
         {
           ...prettierOptions,
-          plugins: ['prettier-plugin-tailwindcss'],
+          plugins: [tailwindPrettierPlugin],
           tailwindFunctions: ['clsx', 'cva', 'cn'],
         },
         { usePrettierrc: false },
