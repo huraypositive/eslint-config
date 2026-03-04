@@ -62,7 +62,21 @@ export default defineConfig([
 
 ## VS Code 설정
 
-패키지 설치 시 `postinstall` 스크립트가 자동으로 실행되어 `.vscode/` 파일을 생성하거나 기존 파일에 병합합니다.
+### 1) init 실행 (권장)
+
+```bash
+npx @huray/eslint-config-core
+# 또는
+yarn dlx @huray/eslint-config-core
+# 또는
+pnpm dlx @huray/eslint-config-core
+```
+
+실행하면 `.vscode/settings.json`, `.vscode/extensions.json`을 기준으로 설정을 적용합니다.
+- 파일이 없으면 새로 생성합니다.
+- 파일이 있으면 병합 여부를 확인한 뒤 반영합니다.
+
+### 2) 적용되는 설정
 
 ### `.vscode/settings.json`
 

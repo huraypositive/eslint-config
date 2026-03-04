@@ -6,8 +6,12 @@
   "exports": {
     ".": "./index.js"
   },
+  "bin": {
+    "huray-eslint-config-init": "./init-vscode.js"
+  },
   "files": [
-    "index.js"
+    "index.js",
+    "init-vscode.js"
   ],
   "keywords": [
     "eslint",
