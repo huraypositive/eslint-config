@@ -1,5 +1,16 @@
 # @huray/eslint-config-react
 
+## 1.0.0
+
+### Major Changes
+
+- ee97c35: peerDependencies 제거 및 안정화 버전 배포
+
+### Patch Changes
+
+- Updated dependencies [ee97c35]
+  - @huray/eslint-config-core@1.0.0
+
 ## 0.1.1
 
 ### Patch Changes
