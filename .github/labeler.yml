@@ -1,6 +1,11 @@
 '🐰 Core':
-  - packages/core/**
+  - changed-files:
+      - any-glob-to-any-file: 'packages/core/**'
+
 '🐹 Next':
-  - packages/next/**
+  - changed-files:
+      - any-glob-to-any-file: 'packages/next/**'
+
 '🐸 React':
-  - packages/react/**
+  - changed-files:
+      - any-glob-to-any-file: 'packages/react/**'

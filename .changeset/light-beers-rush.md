@@ -4,4 +4,4 @@
 "@huray/eslint-config-next": minor
 ---
 
-[설정] vscode 설정 설치 방법 변경
+.vscode 스크립트 설치 방법 변경
