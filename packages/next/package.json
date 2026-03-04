@@ -28,16 +28,14 @@
   },
   "dependencies": {
     "@huray/eslint-config-core": "workspace:*",
+    "eslint": "^9.0.0",
     "eslint-config-next": "^16.0.7",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.37.0",
+    "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.6.0"
-  },
-  "peerDependencies": {
-    "eslint": "^9.0.0",
-    "prettier": "^3.0.0"
   },
   "publishConfig": {
     "access": "public"

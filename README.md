@@ -7,19 +7,19 @@ Huray 프론트엔드 팀의 공유 ESLint 설정 모노레포입니다.
 | 패키지 | 설명 | npm |
 |---|---|---|
 | `@huray/eslint-config-core` | 공통 규칙 정의 (플러그인 미포함) | [![npm](https://img.shields.io/npm/v/@huray/eslint-config-core)](https://www.npmjs.com/package/@huray/eslint-config-core) |
-| `@huray/eslint-config-next` | Next.js 프로젝트용 ESLint 설정 | [![npm](https://img.shields.io/npm/v/@huray/eslint-config-next)](https://www.npmjs.com/package/@huray/eslint-config-next) |
-| `@huray/eslint-config-react` | React 프로젝트용 ESLint 설정 | [![npm](https://img.shields.io/npm/v/@huray/eslint-config-react)](https://www.npmjs.com/package/@huray/eslint-config-react) |
+| `@huray/eslint-config-next` | Next.JS 프로젝트용 ESLint 설정 | [![npm](https://img.shields.io/npm/v/@huray/eslint-config-next)](https://www.npmjs.com/package/@huray/eslint-config-next) |
+| `@huray/eslint-config-react` | React.JS 프로젝트용 ESLint 설정 | [![npm](https://img.shields.io/npm/v/@huray/eslint-config-react)](https://www.npmjs.com/package/@huray/eslint-config-react) |
 
 ## 사용법
 
-### Next.js 프로젝트
+### Next.JS 프로젝트
 
 ```bash
 npm install -D @huray/eslint-config-next
 # or
 yarn add -D @huray/eslint-config-next
 # or
-pnpm add -D @huray/eslint-config-next
+pnpm add -D @huray/eslint-config-next eslint@^9 prettier@^3 # 엄격한 의존성 격리로 인해 eslint/prettier를 별도 설치 필요
 ```
 
 `eslint.config.js` (또는 `eslint.config.mjs`):
@@ -36,14 +36,14 @@ export default defineConfig([
 
 ---
 
-### React 프로젝트
+### React.JS 프로젝트
 
 ```bash
 npm install -D @huray/eslint-config-react
 # or
 yarn add -D @huray/eslint-config-react
 # or
-pnpm add -D @huray/eslint-config-react
+pnpm add -D @huray/eslint-config-react eslint@^9 prettier@^3 # 엄격한 의존성 격리로 인해 eslint/prettier를 별도 설치 필요
 ```
 
 `eslint.config.js` (또는 `eslint.config.mjs`):
@@ -125,8 +125,8 @@ huray-eslint-config/
 │   ├── next/          # @huray/eslint-config-next
 │   ├── react/         # @huray/eslint-config-react
 │   └── fixtures/
-│       ├── next/      # Next.js 규칙 검증용 (배포 제외)
-│       └── react/     # React 규칙 검증용 (배포 제외)
+│       ├── next/      # Next.JS 규칙 검증용 (배포 제외)
+│       └── react/     # React.JS 규칙 검증용 (배포 제외)
 └── package.json
 ```
 
@@ -137,13 +137,13 @@ huray-eslint-config/
 `packages/fixtures/` 하위에 실제 규칙 위반 코드가 담긴 `TestComponent.jsx`를 통해 IDE에서 시각적으로 규칙 동작을 확인하거나, CLI로 검증할 수 있습니다.
 
 ```bash
-# Next.js + React 전체 검증
+# Next.JS + React.JS 전체 검증
 pnpm lint
 
-# Next.js 설정만 검증
+# Next.JS 설정만 검증
 pnpm lint:next
 
-# React 설정만 검증
+# React.JS 설정만 검증
 pnpm lint:react
 ```
 
