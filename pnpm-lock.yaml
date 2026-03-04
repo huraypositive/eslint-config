@@ -76,12 +76,6 @@ importers:
       next:
         specifier: ^16.0.7
         version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      react:
-        specifier: ^19.0.0
-        version: 19.2.4
-      react-dom:
-        specifier: ^19.0.0
-        version: 19.2.4(react@19.2.4)
 
   packages/react:
     dependencies:
@@ -115,13 +109,6 @@ importers:
       prettier:
         specifier: ^3.0.0
         version: 3.8.1
-    devDependencies:
-      react:
-        specifier: ^19.0.0
-        version: 19.2.4
-      react-dom:
-        specifier: ^19.0.0
-        version: 19.2.4(react@19.2.4)
 
 packages:
 
