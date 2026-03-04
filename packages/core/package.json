@@ -19,13 +19,8 @@
     "huray",
     "rules"
   ],
-  "author": "Huray <dev@huray.net>",
+  "author": "Huray",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/huraypositive/eslint-config.git",
-    "directory": "packages/core"
-  },
   "engines": {
     "node": ">=18.0.0"
   },
