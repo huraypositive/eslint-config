@@ -1,5 +1,16 @@
 # @huray/eslint-config-next
 
+## 0.1.0
+
+### Minor Changes
+
+- a56fc62: .vscode 스크립트 설치 방법 변경
+
+### Patch Changes
+
+- Updated dependencies [a56fc62]
+  - @huray/eslint-config-core@0.1.0
+
 ## 0.0.2
 
 ### Patch Changes
