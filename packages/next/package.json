@@ -1,18 +1,14 @@
 {
   "name": "@huray/eslint-config-next",
   "version": "0.0.2",
-  "description": "Huray's ESLint config for Next.js projects",
+  "description": "Huray's ESLint config for Next.JS projects",
   "main": "index.js",
   "exports": {
     ".": "./index.js"
   },
   "files": [
-    "index.js",
-    "postinstall.js"
+    "index.js"
   ],
-  "scripts": {
-    "postinstall": "node postinstall.js"
-  },
   "keywords": [
     "huray",
     "eslint",
@@ -33,9 +29,7 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "next": "^16.0.7",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "^16.0.7"
   },
   "dependencies": {
     "@huray/eslint-config-core": "workspace:*",
