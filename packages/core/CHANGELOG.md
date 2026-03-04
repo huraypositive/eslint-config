@@ -1,5 +1,11 @@
 # @huray/eslint-config-core
 
+## 1.0.0
+
+### Major Changes
+
+- ee97c35: peerDependencies 제거 및 안정화 버전 배포
+
 ## 0.1.1
 
 ### Patch Changes

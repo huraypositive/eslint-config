@@ -1,6 +1,6 @@
 {
   "name": "@huray/eslint-config-next",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Huray's ESLint config for Next.JS projects",
   "main": "index.js",
   "exports": {
