@@ -65,7 +65,8 @@ export default defineConfig([
 ### 1) init 실행 (권장)
 
 ```bash
-npx @huray/eslint-config-core
+npx @huray/eslint-config-core // npm 혹은 yarn의 경우
+pnpm dlx @huray/eslint-config-core // pnpm의 경우
 ```
 
 실행하면 `.vscode/settings.json`, `.vscode/extensions.json`을 기준으로 설정을 적용합니다.
