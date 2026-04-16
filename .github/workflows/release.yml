@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   release:
-    if: github.repository == 'huraypositive/eslint-config'
+    if: github.repository == 'huraypositive/frontend-eslint-config'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
