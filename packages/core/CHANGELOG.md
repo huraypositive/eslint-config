@@ -1,5 +1,11 @@
 # @huray/eslint-config-core
 
+## 1.0.1
+
+### Patch Changes
+
+- 6342c28: pnpm 기준 npx 실행 명령어 수정
+
 ## 1.0.0
 
 ### Major Changes

@@ -1,5 +1,12 @@
 # @huray/eslint-config-next
 
+## 1.0.1
+
+### Patch Changes
+
+- Updated dependencies [6342c28]
+  - @huray/eslint-config-core@1.0.1
+
 ## 1.0.0
 
 ### Major Changes
